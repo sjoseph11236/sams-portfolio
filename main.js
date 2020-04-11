@@ -3,7 +3,7 @@ const app = require('./server/server');
 const PORT = process.env.PORT || 3000;
 
 // Use when you have a database set up
-db.sync({ force: false })
+db.sync({ force: true })
   .then(() => {
     console.log('db synced');
     app.listen(PORT, () => console.log(`App is listening on PORT ${PORT}`));

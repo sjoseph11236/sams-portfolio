@@ -5,7 +5,7 @@ const {green, red} = require('chalk');
 
 const seed = async() => {
   await db.sync({force: true});
-  
+
   await User.bulkCreate(users);
   await Entry.bulkCreate(entries);
 
