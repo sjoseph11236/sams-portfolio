@@ -1,6 +1,6 @@
 const db = require('./db');
 const User = require('./models/User');
-const Entry = require('./models/user');
+const Entry = require('./models/entry');
 
 // Associates
 User.hasMany(Entry);
@@ -10,5 +10,6 @@ Entry.belongsTo(User);
 
 module.exports = { 
   db,
-  User
+  User,
+  Entry
 };

@@ -1,10 +1,10 @@
-const Sequelize = require('sequleize');
+const Sequelize = require('sequelize');
 const db = require('../db');
 
 
 const Entry  = db.define('entry', {
   title:{
-    type:Sequelize.SRING,
+    type:Sequelize.STRING,
     allowNull: false,
     validate: { 
       notEmpty: true,
@@ -12,7 +12,7 @@ const Entry  = db.define('entry', {
   },
   body: {
     type: Sequelize.TEXT,
-    allowNull:fasle, 
+    allowNull:false, 
     validate: { 
       notEmpty: true
     }
