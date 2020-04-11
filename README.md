@@ -1,6 +1,6 @@
 # BOILER PLATE:
 
-This is my boiler plate
+This is my boiler plate for using hooks with express.
 
 ### SOURCES:
 
