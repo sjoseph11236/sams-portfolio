@@ -1,7 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useInput }  from '../../hooks/useInput';
 
 const SignIn = () => {
+  const { value: Name, bind: bindName, reset: resetName } = useInput('');
+
   return (  
     <div className="container">   
       <section className="section">

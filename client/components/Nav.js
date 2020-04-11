@@ -1,5 +1,4 @@
-import React from 'react';
-import { connect } from 'react-redux'
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom'
 
 const Nav = () => {
@@ -33,11 +32,6 @@ const Nav = () => {
             <p className="level-item">
               <Link to='/signin'>
                 <u>Sign In</u>
-              </Link>
-            </p>
-            <p className="level-item">
-              <Link to='/register'>
-                <u>Register</u>
               </Link>
             </p>
           </div>
