@@ -48,26 +48,27 @@ textarea{
   background-repeat: no-repeat;
   background-attachment: fixed; 
 }
-
+/* 
 .mainImageBG{
-  /* background-image: url('./images/unnamed-23.jpg'); */
-  min-height: 50%;
-}
+  background-image: url('./images/unnamed-23.jpg');
+}  */
 
-.image2{
+/* .image2{
   background-image: url("sam.jpg");
   min-height: 50%;
-}
-
+} */
+/* 
 .image3{
   background-image: url("unnamed.jpg");
+  love
   min-height: 50%;
-}
+} */
 
-.image4{
+/* .image4{
   background-image: url("unnamed-9.jpg");
+toni
   min-height: 80%;
-}
+} */
 
 .section{ 
   text-align: center;

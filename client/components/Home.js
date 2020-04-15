@@ -1,10 +1,13 @@
-import React from 'react'
+import React from 'react';
 import Sky from './images/sky.png';
+import Sam from './images/sam.png';
+import Love from './images/love.png';
+import Toni from './images/toni.png';
 
 function home() {
   return (
     <>
-      <div className="mainImageBG" style={{ backgroundImage: `url(${Sky})`} }> 
+      <div className="mainImageBG" style={ { backgroundImage: `url(${Sky})`, minHeight: '50%' } }> 
         <div className="ptext">
           <span className="border">
             Sam's Poem Generator
@@ -20,7 +23,7 @@ function home() {
         </div>
       </section>
 
-      <div className="image3" id="section2">
+      <div className="image3" id="section2" style={ { backgroundImage: `url(${Love})`, minHeight: '50%' }}>
         <div className='ptext'>
           <span className="border trans">Enter poem:</span>
         </div>
@@ -45,7 +48,7 @@ function home() {
         <button className="button" type="submit" onClick="resetText()"><span>Reset</span></button>
       </section>
 
-      <div className="image2" id="section2">
+      <div className="image2" id="section2" style={ { backgroundImage: `url(${Sam})`, minHeight: '50%' }} >
         <div className='ptext'>
           <span className="border trans">New Poem:</span>
         </div>
@@ -57,7 +60,7 @@ function home() {
         </div>
       </section>
 
-      <div className="image4" id="section2">
+      <div className="image4" id="section2" style={ { backgroundImage: `url(${Toni})`, minHeight: '80%' }}>
           <div className='ptext'>
           </div>
       </div>  
