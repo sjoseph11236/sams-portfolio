@@ -1,6 +1,7 @@
 import React from 'react';
+import { SignIn, Home } from './components/';
 import { Route, Switch } from 'react-router-dom';
-import { SignIn } from './components/';
+
 
 const Routes = () => {
 
@@ -9,7 +10,7 @@ const Routes = () => {
   return (
     <Switch>
       {/* Routes placed here are available to all visitors */}
-      <Route exact path= '/'  />
+      <Route exact path= '/'  component={Home}/>
       <Route exact path="/signin" component={SignIn}/>
       {isLoggedIn && (
         <Switch>

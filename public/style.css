@@ -50,7 +50,7 @@ textarea{
 }
 
 .mainImageBG{
-  background-image: url('unnamed-23.jpg');
+  /* background-image: url('./images/unnamed-23.jpg'); */
   min-height: 50%;
 }
 
